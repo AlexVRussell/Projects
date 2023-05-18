@@ -3,17 +3,17 @@ This is a simple implementation of the classic Snake Game using Python and Pygam
 
 Game Objective
 
-The objective of the game is to control a snake on a game board and eat food that randomly appears on the board. As the snake eats food, it grows longer, 
+-The objective of the game is to control a snake on a game board and eat food that randomly appears on the board. As the snake eats food, it grows longer, 
 and the player earns points. The game ends when the snake hits the edge of the board.
 
 Game Controls
 
-Use the arrow keys to control the direction of the snake: up, down, left, or right.
+-Use the arrow keys to control the direction of the snake: up, down, left, or right.
 The game starts automatically upon running the code.
 
 Game Features
 
-Snake moves in the direction specified by the player's input.
+-Snake moves in the direction specified by the player's input.
 Snake grows longer by 1 segment each time it eats food.
 Food appears randomly on the game board after the snake eats the previous food.
 The game ends when the snake hits the edge of the board.
@@ -21,12 +21,12 @@ The score is displayed on the console once the game has ended, indicating the nu
 
 Dependencies
 
-Python 3.x
-Pygame library
+-Python 3.x
+-Pygame library
 
 How to Run
 
-Make sure Python and Pygame are installed on your system.
+-Make sure Python and Pygame are installed on your system.
 Run the code in a Python environment.
 The game window will open automatically, and the game will start.
 Use arrow keys to control the snake and eat the food.
@@ -36,6 +36,6 @@ Close the game window to exit the game.
 
 Improvements
 
-Add a feature so the snake cannot collide with itself.
+-Add a feature so the snake cannot collide with itself.
 Make it so the snake moves inside a grid, not just where ever.
 Add a feature so the score is displayed in real time not just after the game is over in the console.
