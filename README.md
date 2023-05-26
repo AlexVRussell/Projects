@@ -39,3 +39,4 @@ Improvements
 -Add a feature so the snake cannot collide with itself.
 Make it so the snake moves inside a grid, not just where ever.
 Add a feature so the score is displayed in real time not just after the game is over in the console.
+-If you have any improvements to this please reach out I'd love to improve my code and learn/grow to become better. Thanks.
