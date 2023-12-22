@@ -17,7 +17,8 @@ The game starts automatically upon running the code.
 Snake grows longer by 1 segment each time it eats food.
 Food appears randomly on the game board after the snake eats the previous food.
 The game ends when the snake hits the edge of the board.
-The score is displayed on the console once the game has ended, indicating the number of foods eaten.
+The score is displayed on the console in real time and once the game has ended, indicating the number of foods eaten.
+*New* Very simple level system added, at level 5 (once your score is equal and greater then 5) speed is increased. This is the same with level 20 and a message is printed to the console indicating the level change.
 
 *Dependencies*
 
@@ -37,10 +38,10 @@ Close the game window to exit the game.
 
 *Improvements*
 
-- Add a feature so the snake cannot collide with itself.
+- Add a feature so the snake cannot collide with itself. (*STILL WORKING ON IT*)
   
-- Make it so the snake moves inside a grid, not just where ever.
+- Make it so the snake moves inside a grid, not just where ever. (*THIS HAS BEEN UPDATED AND NOW WORKS ON A GRID*)
 
-- Add a feature so the score is displayed in real time not just after the game is over in the console.
+- Add a feature so the score is displayed in real time not just after the game is over in the console. (*tHIS HAS BEEN ADDED, LINES 78-80*)
 
 - If you have any improvements to this please reach out I'd love to improve my code and learn/grow to become better. Thanks.
