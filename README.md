@@ -47,6 +47,6 @@ and the player earns points. The game ends when the snake hits the edge of the b
   
 - Make it so the snake moves inside a grid, not just where ever. (*THIS HAS BEEN UPDATED AND NOW WORKS ON A GRID*)
 
-- Add a feature so the score is displayed in real time not just after the game is over in the console. (*tHIS HAS BEEN ADDED, LINES 78-80*)
+- Add a feature so the score is displayed in real time not just after the game is over in the console. (*THIS HAS BEEN ADDED, LINES 78-80*)
 
 - If you have any improvements to this please reach out I'd love to improve my code and learn/grow to become better. Thanks.
