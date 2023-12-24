@@ -32,6 +32,7 @@ food = pygame.Rect((random.randint(0, (BOARD_WIDTH // SEGMENT_SIZE) - 1) * SEGME
                    (SEGMENT_SIZE, SEGMENT_SIZE))
 
 pygame.display.set_caption('Snake Game')
+
 # Main game loop
 while True:
     for event in pygame.event.get():
@@ -58,8 +59,10 @@ while True:
 
     '''
     This block of code is currently not working, I am trying to implement a feature that ends the game when the 
-    snakes head collides with it's body
-    
+    snakes head collides with it's body. Window closes as soon as running code, I believe it is because the 
+    snake head collides with the body as soon as the game starts causing pygame to quit. I don't know feel free 
+    to give your opinion!
+
     if snake_head.colliderect(snake_body[-1]):
         print(gameOver)
         print("FINAL SCORE:", score)
@@ -69,7 +72,6 @@ while True:
 
     # Check for collision with food
     if snake_head.colliderect(food):
-
         # Move the food to a new random location
         food.x = random.randint(0, (BOARD_WIDTH // SEGMENT_SIZE) - 1) * SEGMENT_SIZE
         food.y = random.randint(0, (BOARD_HEIGHT // SEGMENT_SIZE) - 1) * SEGMENT_SIZE
@@ -89,7 +91,7 @@ while True:
         if score == 20 and not nextLevelPrinted:
             print("NEXT LEVEL\nSPEED INCREASED\n")
             nextLevelPrinted = True
-            time.sleep(0.17)
+            time.sleep(0.05)
 
         # Add a new segment to the snake's body
         snake_body.append(snake_head)
@@ -107,8 +109,7 @@ while True:
 
     # Clear the screen
     screen.fill((0, 0, 0))
-    if score < 5:
-        time.sleep(0.2)
+    time.sleep(0.2)
 
     # Draw the snake and food
     for segment in snake_body:
