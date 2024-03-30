@@ -15,13 +15,13 @@ and the player earns points. The game ends when the snake hits the edge of the b
 *Game Features*
 
 - Snake moves in the direction specified by the player's input.
-- 
+  
 - Snake grows longer by 1 segment each time it eats food.
-- 
+  
 - Food appears randomly on the game board after the snake eats the previous food.
-- 
+  
 - The game ends when the snake hits the edge of the board.
-- 
+  
 - The score is displayed on the console in real time and once the game has ended, indicating the number of foods eaten.
 *New* Very simple level system added, at level 5 (once your score is equal and greater then 5) speed is increased. This is the same with level 20 and a message is printed to the console indicating the level change.
 
